@@ -1,0 +1,109 @@
+/* Estilos básicos para o site */
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #131212;
+    color: aliceblue;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+
+    padding: 20px;
+    background-color: #121724;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    color: #ff00ff;
+}
+
+main {
+    text-align: center;
+}
+
+main img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer a {
+    color: #728aa3;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para a página de login */
+
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #1c1c1d;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    text-align: center;
+    color: #ddd;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container label {
+    margin-bottom: 5px;
+    color: #fff9f9;
+}
+
+.login-container input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.login-container button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para a dica da senha */
+
+.hint {
+    display: none; 
+    margin-top: 15px;
+    color: #666;
+    font-style: italic;
+    
+}
